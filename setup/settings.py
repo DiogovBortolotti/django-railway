@@ -73,14 +73,14 @@ WSGI_APPLICATION = 'setup.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {  ## e teste 
+DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'railway',
-        'USER': 'root',
-        'PASSWORD': '2aSqG8J0EBQJFDO5owoe',
-        'HOST': 'containers-us-west-175.railway.app',
-        'PORT': '5857',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'django_render_7jeq',
+        'USER': 'django_render_7jeq_user',
+        'PASSWORD': 'UKk28YNrtijqFjNFNxiJCKdqntlqEGCt',
+        'HOST': 'dpg-cg55le4eoogsv95f2800-a',
+        'PORT': '5432',
     }
 }
 
